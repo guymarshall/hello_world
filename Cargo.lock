@@ -2949,7 +2949,6 @@ dependencies = [
  "num-traits",
  "num_cpus",
  "onnxruntime",
- "openssl",
  "ordered-float 3.7.0",
  "os_pipe",
  "os_str_bytes",
