@@ -6,203 +6,203 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde = "1.0"
-reqwest = "0.11.4"
-tokio = { version = "1.16.0", features = ["full"] }
-hyper = "0.14.11"
-async-std = { version = "1.9.0", features = ["attributes", "unstable"] }
-actix-web = "3.3.2"
-sqlx = { version = "0.5.0", features = ["postgres"] }
-async-trait = "0.1.53"
-async-graphql = "3.1.0"
-juniper = "0.15.2"
-tide = "0.16.0"
-warp = "0.3.1"
-actix-files = "0.5.0"
-actix-web-httpauth = "3.0.0"
-serde_json = "1.0.68"
-serde_yaml = "0.9.5"
-toml = "0.5.8"
-yaml-rust = "0.4.5"
-dotenv = "0.15.0"
-config = "0.11.0"
-structopt = "0.3.23"
-clap = "3.0.0-beta.2"
-log4rs = "1.0.0"
-env_logger = "0.9.0"
-simplelog = "0.7.3"
-futures = "0.3.17"
-tokio-stream = "0.1.8"
-tokio-tungstenite = "0.17.0"
-rusoto_s3 = "0.45.0"
-rusoto_core = "0.45.0"
-reqwest-mock = "0.10.5"
-mockito = "0.28.1"
-rand = "0.8.4"
-sha-2 = "0.9.1"
-num_cpus = "1.14.0"
-byteorder = "1.4.3"
-lazy_static = "1.4.0"
-num-traits = "0.2.14"
-num-bigint = "0.2.6"
-num-complex = "0.3.1"
-num-integer = "0.2.2"
-num-iter = "0.1.42"
-num-rational = "0.3.2"
-num-derive = "0.3.3"
-petgraph = "0.5.1"
-regex = "1.5.4"
-chrono = "0.4.19"
-log = "0.4.15"
-pretty_env_logger = "0.4.0"
-time = "0.2.23"
-backtrace = "0.3.61"
-bitflags = "1.2.1"
-cfg-if = "0.1.10"
-color-eyre = "0.1.1"
-crossbeam-channel = "0.5.0"
-crossbeam-utils = "0.8.5"
-dirs = "3.0.2"
-either = "1.6.1"
-futures-channel = "0.3.17"
-futures-core = "0.3.17"
-futures-io = "0.3.17"
-futures-macro = "0.3.17"
-futures-sink = "0.3.17"
-futures-task = "0.3.17"
-futures-util = "0.3.17"
-hashbrown = "0.11.2"
-hex = "0.4.3"
-humansize = "2.1.0"
-image = "0.23.14"
-imageproc = "0.23.3"
-itertools = "0.10.1"
-libc = "0.2.107"
-lru-cache = "0.1.2"
-matches = "0.1.9"
-ndarray = "0.15.3"
-ndarray-rand = "0.14.0"
-ndarray-stats = "0.5.1"
-num = "0.4.0"
-ordered-float = "1.0.2"
-os_pipe = "0.9.1"
-os_str_bytes = "2.4.1"
-ppv-lite86 = "0.2.10"
-proc-macro2 = "1.0.30"
-quickcheck = "1.0.2"
-quote = "1.0.9"
-rand_chacha = "0.3.1"
-rand_core = "0.6.2"
-rayon = "1.5.1"
-redox_syscall = "0.2.4"
-redox_termios = "0.1.1"
-regex-syntax = "0.6.25"
-remove_dir_all = "0.5.3"
-ryu = "1.0.5"
-scoped-threadpool = "0.1.9"
-semver = "0.11.0"
-semver-parser = "0.10.2"
-sha-1 = "0.9.3"
-sha2 = "0.9.3"
-signal-hook = "0.1.18"
-signal-hook-registry = "1.4.0"
-sized-chunks = "0.1.2"
-slab = "0.4.2"
-smallvec = "1.7.0"
-stable_deref_trait = "1.2.0"
-stdweb = "0.4.20"
-strsim = "0.8.0"
-syn = "1.0.73"
-tempfile = "3.2.0"
-thread_local = "1.1.2"
-tokio-io = "0.1.13"
-tokio-process = "0.2.6"
-tokio-sync = "0.1.8"
-tokio-threadpool = "0.1.17"
-tokio-timer = "0.2.23"
-typenum = "1.13.0"
-unicase = "2.6.0"
-unicode-normalization = "0.1.16"
-url = "2.2.2"
-uuid = "0.8.2"
-vcpkg = "0.2.16"
-vec_rand = "0.3.0"
-void = "1.0.2"
-webpki = "0.21.1"
-webpki-roots = "0.8.3"
-yansi = "0.7.0"
-zmq = "0.9.0"
-zmq-rs = "0.15.0"
-zmq-name = "0.1.0"
-zstd = "0.9.2"
-tokio-rustls = "0.22.0"
-rustls = "0.19.1"
-tokio-openssl = "0.11.0"
-openssl = "0.10.36"
-serde_bytes = "0.11.5"
-lapack = { version = "0.17.0", features = ["blas", "lapacke"] }
-lapack-sys = { version = "0.4.1", features = ["blas", "lapacke"] }
-ndarray-linalg = "0.14.0"
-num-approx = "0.5.0"
-flame = "0.5.0"
-flame-graph = "0.1.7"
-imageflow = "0.0.9"
-imageflow-core = "0.0.9"
-img_parts = "0.8.0"
-tikv-client = "0.9.0"
-tikv = "0.9.0"
-rust-postgres = "0.17.0"
-actix-redis = "0.9.1"
-redis = "0.17.0"
-async-std-redis = "0.15.1"
-actix-session = "0.6.0"
-cookie = "0.15.1"
-reqwest-jwt = "0.3.0"
-jsonwebtoken = "8.2.0"
-jsonwebtoken-derive = "1.1.2"
-bson = "0.17.2"
-bson-rs = "0.17.1"
-rust-bert = { version = "0.8.0", features = ["tensorflow"] }
-tensorflow = "0.24.0"
-tensorflow-estimator = "0.5.0"
-onnxruntime = "0.6.1"
-rocksdb = "0.8.0"
-rust-rocksdb = "6.21.0"
-tensorflow-sys = "0.24.0"
-tokio-cron = "0.2.0"
-tokio-tcp = "0.1.4"
-tokio-udp = "0.1.4"
-tokio-uds = "0.2.7"
-tokio-serial = "0.6.3"
-tokio-file = "0.5.8"
-tokio-stdio = "0.2.2"
-tokio-tls = "0.8.1"
-tokio-socks = "0.5.0"
-tokio-tower = "0.3.1"
-tower-balance = "0.1.1"
-tower-buffer = "0.1.0"
-tower-discover = "0.3.0"
-tower-fallback = "0.3.0"
-tower-limit = "0.1.0"
-tower-load-shed = "0.3.0"
-tower-retry = "0.3.0"
-tower-timeout = "0.3.0"
-tower-util = "0.3.0"
-tower-web = "0.5.5"
-unic-ucd-core = "0.9.0"
-unic-ucd-name = "0.9.0"
-unic-ucd-normal = "0.9.0"
-unicode-width = "0.1.8"
-v_escape = "0.1.0"
-winapi = "0.3.9"
-winapi-i686-pc-windows-gnu = "0.4.0"
-winapi-util = "0.1.5"
-winapi-x86_64-pc-windows-gnu = "0.4.0"
-winreg = "0.7.0"
-ws2_32-sys = "0.2.1"
-xdg = "2.2.0"
-xml-rs = "0.8.0"
-xml-rs-macros = "0.5.0"
-zip = "0.5.11"
-zip-rs = "0.5.3"
-zlib = "0.3.3"
+serde
+reqwest
+tokio
+hyper
+async-std
+actix-web
+sqlx
+async-trait
+async-graphql
+juniper
+tide
+warp
+actix-files
+actix-web-httpauth
+serde_json
+serde_yaml
+toml
+yaml-rust
+dotenv
+config
+structopt
+clap
+log4rs
+env_logger
+simplelog
+futures
+tokio-stream
+tokio-tungstenite
+rusoto_s3
+rusoto_core
+reqwest-mock
+mockito
+rand
+sha-2
+num_cpus
+byteorder
+lazy_static
+num-traits
+num-bigint
+num-complex
+num-integer
+num-iter
+num-rational
+num-derive
+petgraph
+regex
+chrono
+log
+pretty_env_logger
+time
+backtrace
+bitflags
+cfg-if
+color-eyre
+crossbeam-channel
+crossbeam-utils
+dirs
+either
+futures-channel
+futures-core
+futures-io
+futures-macro
+futures-sink
+futures-task
+futures-util
+hashbrown
+hex
+humansize
+image
+imageproc
+itertools
+libc
+lru-cache
+matches
+ndarray
+ndarray-rand
+ndarray-stats
+num
+ordered-float
+os_pipe
+os_str_bytes
+ppv-lite86
+proc-macro2
+quickcheck
+quote
+rand_chacha
+rand_core
+rayon
+redox_syscall
+redox_termios
+regex-syntax
+remove_dir_all
+ryu
+scoped-threadpool
+semver
+semver-parser
+sha-1
+sha2
+signal-hook
+signal-hook-registry
+sized-chunks
+slab
+smallvec
+stable_deref_trait
+stdweb
+strsim
+syn
+tempfile
+thread_local
+tokio-io
+tokio-process
+tokio-sync
+tokio-threadpool
+tokio-timer
+typenum
+unicase
+unicode-normalization
+url
+uuid
+vcpkg
+vec_rand
+void
+webpki
+webpki-roots
+yansi
+zmq
+zmq-rs
+zmq-name
+zstd
+tokio-rustls
+rustls
+tokio-openssl
+openssl
+serde_bytes
+lapack
+lapack-sys
+ndarray-linalg
+num-approx
+flame
+flame-graph
+imageflow
+imageflow-core
+img_parts
+tikv-client
+tikv
+rust-postgres
+actix-redis
+redis
+async-std-redis
+actix-session
+cookie
+reqwest-jwt
+jsonwebtoken
+jsonwebtoken-derive
+bson
+bson-rs
+rust-bert
+tensorflow
+tensorflow-estimator
+onnxruntime
+rocksdb
+rust-rocksdb
+tensorflow-sys
+tokio-cron
+tokio-tcp
+tokio-udp
+tokio-uds
+tokio-serial
+tokio-file
+tokio-stdio
+tokio-tls
+tokio-socks
+tokio-tower
+tower-balance
+tower-buffer
+tower-discover
+tower-fallback
+tower-limit
+tower-load-shed
+tower-retry
+tower-timeout
+tower-util
+tower-web
+unic-ucd-core
+unic-ucd-name
+unic-ucd-normal
+unicode-width
+v_escape
+winapi
+winapi-i686-pc-windows-gnu
+winapi-util
+winapi-x86_64-pc-windows-gnu
+winreg
+ws2_32-sys
+xdg
+xml-rs
+xml-rs-macros
+zip
+zip-rs
+zlib
