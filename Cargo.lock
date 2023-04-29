@@ -2709,7 +2709,6 @@ dependencies = [
  "winapi-i686-pc-windows-gnu",
  "winapi-util",
  "winapi-x86_64-pc-windows-gnu",
- "winreg",
  "ws2_32-sys",
  "xdg",
  "xml-rs",
