@@ -6,203 +6,203 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde
-reqwest
-tokio
-hyper
-async-std
-actix-web
-sqlx
-async-trait
-async-graphql
-juniper
-tide
-warp
-actix-files
-actix-web-httpauth
-serde_json
-serde_yaml
-toml
-yaml-rust
-dotenv
-config
-structopt
-clap
-log4rs
-env_logger
-simplelog
-futures
-tokio-stream
-tokio-tungstenite
-rusoto_s3
-rusoto_core
-reqwest-mock
-mockito
-rand
-sha-2
-num_cpus
-byteorder
-lazy_static
-num-traits
-num-bigint
-num-complex
-num-integer
-num-iter
-num-rational
-num-derive
-petgraph
-regex
-chrono
-log
-pretty_env_logger
-time
-backtrace
-bitflags
-cfg-if
-color-eyre
-crossbeam-channel
-crossbeam-utils
-dirs
-either
-futures-channel
-futures-core
-futures-io
-futures-macro
-futures-sink
-futures-task
-futures-util
-hashbrown
-hex
-humansize
-image
-imageproc
-itertools
-libc
-lru-cache
-matches
-ndarray
-ndarray-rand
-ndarray-stats
-num
-ordered-float
-os_pipe
-os_str_bytes
-ppv-lite86
-proc-macro2
-quickcheck
-quote
-rand_chacha
-rand_core
-rayon
-redox_syscall
-redox_termios
-regex-syntax
-remove_dir_all
-ryu
-scoped-threadpool
-semver
-semver-parser
-sha-1
-sha2
-signal-hook
-signal-hook-registry
-sized-chunks
-slab
-smallvec
-stable_deref_trait
-stdweb
-strsim
-syn
-tempfile
-thread_local
-tokio-io
-tokio-process
-tokio-sync
-tokio-threadpool
-tokio-timer
-typenum
-unicase
-unicode-normalization
-url
-uuid
-vcpkg
-vec_rand
-void
-webpki
-webpki-roots
-yansi
-zmq
-zmq-rs
-zmq-name
-zstd
-tokio-rustls
-rustls
-tokio-openssl
-openssl
-serde_bytes
-lapack
-lapack-sys
-ndarray-linalg
-num-approx
-flame
-flame-graph
-imageflow
-imageflow-core
-img_parts
-tikv-client
-tikv
-rust-postgres
-actix-redis
-redis
-async-std-redis
-actix-session
-cookie
-reqwest-jwt
-jsonwebtoken
-jsonwebtoken-derive
-bson
-bson-rs
-rust-bert
-tensorflow
-tensorflow-estimator
-onnxruntime
-rocksdb
-rust-rocksdb
-tensorflow-sys
-tokio-cron
-tokio-tcp
-tokio-udp
-tokio-uds
-tokio-serial
-tokio-file
-tokio-stdio
-tokio-tls
-tokio-socks
-tokio-tower
-tower-balance
-tower-buffer
-tower-discover
-tower-fallback
-tower-limit
-tower-load-shed
-tower-retry
-tower-timeout
-tower-util
-tower-web
-unic-ucd-core
-unic-ucd-name
-unic-ucd-normal
-unicode-width
-v_escape
-winapi
-winapi-i686-pc-windows-gnu
-winapi-util
-winapi-x86_64-pc-windows-gnu
-winreg
-ws2_32-sys
-xdg
-xml-rs
-xml-rs-macros
-zip
-zip-rs
-zlib
+actix-files = "*"
+actix-redis = "*"
+actix-session = "*"
+actix-web = "*"
+actix-web-httpauth = "*"
+async-graphql = "*"
+async-std = "*"
+async-std-redis = "*"
+async-trait = "*"
+backtrace = "*"
+bitflags = "*"
+bson = "*"
+bson-rs = "*"
+byteorder = "*"
+cfg-if = "*"
+chrono = "*"
+clap = "*"
+color-eyre = "*"
+config = "*"
+cookie = "*"
+crossbeam-channel = "*"
+crossbeam-utils = "*"
+dirs = "*"
+dotenv = "*"
+either = "*"
+env_logger = "*"
+flame = "*"
+flame-graph = "*"
+futures = "*"
+futures-channel = "*"
+futures-core = "*"
+futures-io = "*"
+futures-macro = "*"
+futures-sink = "*"
+futures-task = "*"
+futures-util = "*"
+hashbrown = "*"
+hex = "*"
+humansize = "*"
+hyper = "*"
+image = "*"
+imageflow = "*"
+imageflow-core = "*"
+imageproc = "*"
+img_parts = "*"
+itertools = "*"
+jsonwebtoken = "*"
+jsonwebtoken-derive = "*"
+juniper = "*"
+lapack = "*"
+lapack-sys = "*"
+lazy_static = "*"
+libc = "*"
+log = "*"
+log4rs = "*"
+lru-cache = "*"
+matches = "*"
+mockito = "*"
+ndarray = "*"
+ndarray-linalg = "*"
+ndarray-rand = "*"
+ndarray-stats = "*"
+num = "*"
+num-approx = "*"
+num-bigint = "*"
+num-complex = "*"
+num-derive = "*"
+num-integer = "*"
+num-iter = "*"
+num-rational = "*"
+num-traits = "*"
+num_cpus = "*"
+onnxruntime = "*"
+openssl = "*"
+ordered-float = "*"
+os_pipe = "*"
+os_str_bytes = "*"
+petgraph = "*"
+ppv-lite86 = "*"
+pretty_env_logger = "*"
+proc-macro2 = "*"
+quickcheck = "*"
+quote = "*"
+rand = "*"
+rand_chacha = "*"
+rand_core = "*"
+rayon = "*"
+redis = "*"
+redox_syscall = "*"
+redox_termios = "*"
+regex = "*"
+regex-syntax = "*"
+remove_dir_all = "*"
+reqwest = "*"
+reqwest-jwt = "*"
+reqwest-mock = "*"
+rocksdb = "*"
+rusoto_core = "*"
+rusoto_s3 = "*"
+rust-bert = "*"
+rust-postgres = "*"
+rust-rocksdb = "*"
+rustls = "*"
+ryu = "*"
+scoped-threadpool = "*"
+semver = "*"
+semver-parser = "*"
+serde = "*"
+serde_bytes = "*"
+serde_json = "*"
+serde_yaml = "*"
+sha-1 = "*"
+sha-2 = "*"
+sha2 = "*"
+signal-hook = "*"
+signal-hook-registry = "*"
+simplelog = "*"
+sized-chunks = "*"
+slab = "*"
+smallvec = "*"
+sqlx = "*"
+stable_deref_trait = "*"
+stdweb = "*"
+strsim = "*"
+structopt = "*"
+syn = "*"
+tempfile = "*"
+tensorflow = "*"
+tensorflow-estimator = "*"
+tensorflow-sys = "*"
+thread_local = "*"
+tide = "*"
+tikv = "*"
+tikv-client = "*"
+time = "*"
+tokio = "*"
+tokio-cron = "*"
+tokio-file = "*"
+tokio-io = "*"
+tokio-openssl = "*"
+tokio-process = "*"
+tokio-rustls = "*"
+tokio-serial = "*"
+tokio-socks = "*"
+tokio-stdio = "*"
+tokio-stream = "*"
+tokio-sync = "*"
+tokio-tcp = "*"
+tokio-threadpool = "*"
+tokio-timer = "*"
+tokio-tls = "*"
+tokio-tower = "*"
+tokio-tungstenite = "*"
+tokio-udp = "*"
+tokio-uds = "*"
+toml = "*"
+tower-balance = "*"
+tower-buffer = "*"
+tower-discover = "*"
+tower-fallback = "*"
+tower-limit = "*"
+tower-load-shed = "*"
+tower-retry = "*"
+tower-timeout = "*"
+tower-util = "*"
+tower-web = "*"
+typenum = "*"
+unic-ucd-core = "*"
+unic-ucd-name = "*"
+unic-ucd-normal = "*"
+unicase = "*"
+unicode-normalization = "*"
+unicode-width = "*"
+url = "*"
+uuid = "*"
+v_escape = "*"
+vcpkg = "*"
+vec_rand = "*"
+void = "*"
+warp = "*"
+webpki = "*"
+webpki-roots = "*"
+winapi = "*"
+winapi-i686-pc-windows-gnu = "*"
+winapi-util = "*"
+winapi-x86_64-pc-windows-gnu = "*"
+winreg = "*"
+ws2_32-sys = "*"
+xdg = "*"
+xml-rs = "*"
+xml-rs-macros = "*"
+yaml-rust = "*"
+yansi = "*"
+zip = "*"
+zip-rs = "*"
+zlib = "*"
+zmq = "*"
+zmq-name = "*"
+zmq-rs = "*"
+zstd = "*"
