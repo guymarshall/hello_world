@@ -1,1 +1,36 @@
-fn main(){{const H:&str="H";const E:&str="e";const L:&str="l";const O:&str="o";const C:&str=",";const S:&str=" ";const W:&str="w";const R:&str="r";const D:&str="d";const X:&str="!";println!("{0}{1}{2}{2}{3}{4}{5}{6}{3}{7}{2}{8}{X}",H,E,L,O,C,S,W,R,D)}}
+struct Letter {
+    letter: char
+}
+
+impl Letter {
+    fn new(letter: char) -> Letter {
+        Letter {
+            letter
+        }
+    }
+}
+
+fn main() {
+    let letters: Vec<Letter> = vec![
+        Letter::new('h'),
+        Letter::new('e'),
+        Letter::new('l'),
+        Letter::new('l'),
+        Letter::new('o'),
+        Letter::new(','),
+        Letter::new(' '),
+        Letter::new('w'),
+        Letter::new('o'),
+        Letter::new('r'),
+        Letter::new('l'),
+        Letter::new('d'),
+        Letter::new('!')
+    ];
+
+    let secret_message: String = letters
+        .iter()
+        .map(|letter| letter.letter)
+        .collect();
+
+    println!("{}", secret_message);
+}
