@@ -1,14 +1,1 @@
-fn main() {
-    const H: &str = "H";
-    const E: &str = "e";
-    const L: &str = "l";
-    const O: &str = "o";
-    const COMMA: &str = ",";
-    const SPACE: &str = " ";
-    const W: &str = "w";
-    const R: &str = "r";
-    const D: &str = "d";
-    const EXCLAMATION_POINT: &str = "!";
-
-    println!("{}{}{}{}{}{}{}{}{}{}{}{}{}", H, E, L, L, O, COMMA, SPACE, W, O, R, L, D, EXCLAMATION_POINT);
-}
+fn main(){{const H:&str="H";const E:&str="e";const L:&str="l";const O:&str="o";const C:&str=",";const S:&str=" ";const W:&str="w";const R:&str="r";const D:&str="d";const X:&str="!";println!("{0}{1}{2}{2}{3}{4}{5}{6}{3}{7}{2}{8}{X}",H,E,L,O,C,S,W,R,D)}}
