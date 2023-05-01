@@ -1,3 +1,5 @@
+use rayon::prelude::*;
+
 struct Letter {
     letter: char
 }
@@ -28,7 +30,7 @@ fn main() {
     ];
 
     let secret_message: String = letters
-        .iter()
+        .par_iter()
         .map(|letter| letter.letter)
         .collect();
 
