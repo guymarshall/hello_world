@@ -1,3 +1,5 @@
+#![forbid(unsafe_code)]
+
 use rayon::prelude::*;
 
 struct Letter {
