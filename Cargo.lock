@@ -4818,7 +4818,6 @@ dependencies = [
  "nanoid",
  "nbformat",
  "nix",
- "nixel",
  "num",
  "num-format",
  "num-traits",
@@ -6559,19 +6558,6 @@ dependencies = [
  "cfg_aliases 0.2.1",
  "libc",
  "memoffset",
-]
-
-[[package]]
-name = "nixel"
-version = "5.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9d75d3203063d3a8d7d050b324fb3f7433ae8eac57e79031a53b1328e2db5a54"
-dependencies = [
- "bindgen",
- "cc",
- "clap",
- "serde",
- "serde_json",
 ]
 
 [[package]]
