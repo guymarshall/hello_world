@@ -8307,7 +8307,6 @@ dependencies = [
  "prost-build 0.13.5",
  "prost-types 0.13.5",
  "pulldown-cmark",
- "q1tsim",
  "quantum",
  "quote 1.0.40",
  "rafx",
@@ -8372,7 +8371,6 @@ dependencies = [
  "sysinfo",
  "take-until",
  "tempfile",
- "tex",
  "thin_main_loop",
  "thiserror 2.0.12",
  "three-d",
@@ -14279,31 +14277,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "q1tsim"
-version = "0.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eaa4e8af8f290adf13e403034c4c210888bd92b34c386d19e783d890fbd92fd5"
-dependencies = [
- "ndarray 0.12.1",
- "num-complex 0.2.4",
- "num-traits 0.2.19",
- "q1tsim-derive",
- "rand 0.7.3",
- "rand_distr 0.2.2",
- "regex",
-]
-
-[[package]]
-name = "q1tsim-derive"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f8cd71f021cc842eacc5e8af8ae62340b453b5092cf8e0737c9c0513d2c77059"
-dependencies = [
- "quote 0.6.13",
- "syn 0.14.9",
-]
-
-[[package]]
 name = "qcms"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -14700,15 +14673,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "99d9a13982dcf210057a8a78572b2217b667c3beacbf3a0d8b454f6f82837d38"
 dependencies = [
  "getrandom 0.3.3",
-]
-
-[[package]]
-name = "rand_distr"
-version = "0.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "96977acbdd3a6576fb1d27391900035bf3863d4a16422973a409b488cf29ffb2"
-dependencies = [
- "rand 0.7.3",
 ]
 
 [[package]]
@@ -17693,17 +17657,6 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "0.14.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "261ae9ecaa397c42b960649561949d69311f08eeaea86a65696e6e46517cf741"
-dependencies = [
- "proc-macro2 0.4.30",
- "quote 0.6.13",
- "unicode-xid 0.1.0",
-]
-
-[[package]]
-name = "syn"
 version = "0.15.44"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9ca4b3b69a77cbe1ffc9e198781b7acb0c7365a883670e8f1c1bc66fba79a5c5"
@@ -18099,27 +18052,6 @@ checksum = "45c6481c4829e4cc63825e62c49186a34538b7b2750b73b266581ffb612fb5ed"
 dependencies = [
  "rustix 1.0.7",
  "windows-sys 0.59.0",
-]
-
-[[package]]
-name = "tex"
-version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cbe1097706802bc0316b643008f3867e8a5bfd763fc3dadd54ef1fbb3237d9d1"
-dependencies = [
- "pest",
- "rayon 1.10.0",
- "tex_derive",
-]
-
-[[package]]
-name = "tex_derive"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "65b7888cc19868c9ead093729b5dd4f45c284b196e5caa8163da5196f112aa0f"
-dependencies = [
- "quote 0.6.13",
- "syn 0.14.9",
 ]
 
 [[package]]
